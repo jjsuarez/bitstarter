@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.css">
     <link rel="stylesheet" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fsocial-buttons.css">    
     <script src="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fjquery.js"></script>
-
     <script src="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap.js"></script>
     <link href="http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700,300italic,400italic,500italic,700italic" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,300,400,600,700,800" 
@@ -103,7 +102,6 @@
   <body>
 
     <!-- Mobile-friendly navbar adapted from example. -->
-
     <!-- http://twitter.github.io/bootstrap/examples/starter-template.html -->
     <div class="navbar navbar-inverse navbar-fixed-top">
       <div class="navbar-inner">
@@ -114,15 +112,13 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-
           <a class="brand" href="#">Bitstarter</a>
           <div class="nav-collapse collapse">
             <ul class="nav">
               <li class="active"><a href="#">Home</a></li>
               <li><a href="#about">About</a></li>
-              <li><a href="contact.html">Contact</a></li>
+              <li><a href="#contact">Contact</a></li>
             </ul>
-
           </div><!--/.nav-collapse -->
         </div>
       </div>
@@ -132,7 +128,6 @@
     <!-- blogs.endjin.com/2013/04/tips-for-implementing-responsive-designs-using-bootstrap/ -->
     <!-- http://stackoverflow.com/a/12270322 -->
     <div class="container">
-
       <!-- Font and paired font of .heading/.subheading and body from Google Fonts -->
       <!-- www.google.com/fonts/specimen/Ubuntu -->
       <!-- www.google.com/fonts/specimen/Ubuntu#pairings -->
@@ -142,7 +137,6 @@
         </div>
       </div> 
       <div class="row-fluid subheading">
-
         <div class="span12">
           <!-- Special typography from Bootstrap for lead paragraph. -->
           <!-- http://twitter.github.io/bootstrap/base-css.html#typography -->
@@ -163,21 +157,20 @@ A polymer-MEMS device that measures Cell cultures and interfaces with smart unit
 
         <!-- We define a new 'actions' div to contain statistics, order, and share buttons.-->
         <div class="span5 actions">
-          <div class="span8 offset2">
-            <div class="statistics">
-              <div class="span4">
-                <!-- linediv-l and linediv-r give dividing lines that look
-                different in horizontal and vertical layouts, illustrating
-                media queries. -->
-
-                <div class="linediv-l">
+	  <div class="row-fluid">
+            <div class="span8 offset2">
+              <div class="row-fluid statistics">
+		<div class="span4">
+                  <!-- linediv-l and linediv-r give dividing lines that look
+                       different in horizontal and vertical layouts, illustrating
+                       media queries. -->
+                  <div class="linediv-l">
                 <h3>0</h3> <p>backers</p>
                 </div>
               </div>
               <div class="span4">
                 <div class="linediv-c">
                   <h3>$0</h3> <p>of $500,000</p>
-
                 </div>
               </div>
               <div class="span4">
@@ -185,9 +178,9 @@ A polymer-MEMS device that measures Cell cultures and interfaces with smart unit
                 <h3>100</h3> <p>days left</p>
                 </div>
               </div>
-
             </div>
           </div>
+	  <div class="row-fluid">
           <div class="span10 offset1">
             <!-- Bootstrap progress bar -->
             <!-- http://twitter.github.io/bootstrap/components.html#progress -->
@@ -195,20 +188,24 @@ A polymer-MEMS device that measures Cell cultures and interfaces with smart unit
               <div class="bar bar-success" style="width: 0%;"></div>
               <div class="bar bar-warning" style="width: 100%;"></div>
             </div>
-
+	  </div>
           </div>
+	  <div class="row-fluid">
           <div class="span6 offset3 order">
             <!-- Standard Bootstrap button. -->
             <!-- http://twitter.github.io/bootstrap/base-css.html#buttons -->
             <button class="btn btn-success btn-large">Preorder</button>
           </div>
+          </div>
+	  <div class="row-fluid">
           <div class="span8 offset2 social">
             <!-- Social buttons are not included in default Bootstrap. -->
-
             <!-- See: http://noizwaves.github.io/bootstrap-social-buttons -->
             <button class="btn btn-twitter"><i class="icon-twitter"></i> | Twitter</button>
             <button class="btn btn-facebook"><i class="icon-facebook"></i> | Facebook</button>
           </div>
+          </div>
+        </div>
         </div>
       </div>
 
@@ -218,10 +215,9 @@ A polymer-MEMS device that measures Cell cultures and interfaces with smart unit
       <!-- http://placehold.it -->
       <div class="row-fluid section1">
         <div class="span5 offset1 asset">
-          <img class="img-polaroid" src="http://i.imgur.com/R5qN3DL.jpg" title="Septup using device" >
+          <img class="img-polaroid"  alt="Placeholder" src="http://i.imgur.com/R5qN3DL.jpg" title="Septup using device" >
         </div>
         <div class="span5 copy">
-
           <p>
 	    We aim to build biomedical devices for drug testing on different biological cells
 	    subjected to specific disease conditions. Specifically, the technology we will
@@ -265,8 +261,7 @@ A polymer-MEMS device that measures Cell cultures and interfaces with smart unit
           </p>
 	</div>
         <div class="span5 asset">
-          <img class="img-polaroid" src="http://i.imgur.com/XthF6Pn.png" title="Measurement results of
-										setup above">
+          <img class="img-polaroid" alt="Placeholder"  src="http://i.imgur.com/XthF6Pn.png" title="Measurement results of setup above">
         </div>
       </div>
       
@@ -284,7 +279,6 @@ A polymer-MEMS device that measures Cell cultures and interfaces with smart unit
                      data-parent="#accordion2" href="#collapseOne">
                    Who are this devices aimed at?
                   </a>
-		  
                 </div>
                 <div id="collapseOne" class="accordion-body collapse">
                   <div class="accordion-inner">
@@ -297,10 +291,9 @@ A polymer-MEMS device that measures Cell cultures and interfaces with smart unit
 		    applications.
                   </div>
                 </div>
-		
-		  <div class="accordion-group">
+	      </div>
+	      <div class="accordion-group">
                 <div class="accordion-heading">
-
                   <a class="accordion-toggle" data-toggle="collapse"
                      data-parent="#accordion2" href="#collapseTwo">
                     What do you get by helping to fund this idea?
@@ -316,7 +309,6 @@ A polymer-MEMS device that measures Cell cultures and interfaces with smart unit
                   </div>
                 </div>
               </div>
-
             </div>
           </div>
 
